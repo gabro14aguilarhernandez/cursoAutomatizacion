@@ -9,7 +9,6 @@ public class Objetos {
 		char[] a = {'H','o','l','a'};
 		String b = "";
 		String c = new String("Hola");
-		git
 		Byte d = null;
 		Short e;
 		Integer f;
