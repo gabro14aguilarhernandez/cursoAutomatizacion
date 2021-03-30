@@ -23,6 +23,8 @@ public class Ferreteria {
         this.papeleria = papeleria;
         this.maquinaRefresco = false;
     }
+
+
     public Ferreteria(){
         this.laminas = "aceroInoxidable";
         this.tipoHerramientas = "plomeria";

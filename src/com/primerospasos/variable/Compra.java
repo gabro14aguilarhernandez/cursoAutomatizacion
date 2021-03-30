@@ -13,6 +13,10 @@ public class Compra {
 
         System.out.println("su compra dos es: " + compraDos.laminas +" " + compraDos.maquinaRefresco +" " + compraDos.papeleria);
 
+        Ferreteria compraTres = new Ferreteria();
+
+        System.out.println(compraTres.construccion + compraTres.maquinaRefresco);
+
 
     }
 
