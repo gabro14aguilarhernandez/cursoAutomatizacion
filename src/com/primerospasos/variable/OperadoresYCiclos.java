@@ -37,29 +37,35 @@ public static void main(String args []){
             System.out.println("Caso 4");
             break;
     }
-*/
   int a = 0;
   for(a = 0; a<=1; a++){
       System.out.println(a);
 
-  }
+  }*/
+
+/*
 // varables de tipo objeto con un Bucle for
   int [] g ={1,2,3};
-  a = 0;
+  int a = 0;
   System.out.println("Bucle for");
   for (a=0; a<g.length;a++){
       System.out.println(g[a]);
       System.out.println(g.length);
   }
+*/
+
 
   // Bucle foreach
-  a=0;
+  int a=0;
+  int [] g ={1,2,3};
   System.out.println("Bucle foreaach");
   for (int l : g){
       System.out.println(l);
       System.out.println("Indice: " + a);
       a++;
   }
+
+/*
 // Mientras la condicion es verdadera hace lo que esta dentro del ciclo
     a=0;
     while (a<g.length){
@@ -73,7 +79,7 @@ public static void main(String args []){
     do{
         System.out.println(g[a]);
         a++;
-    }while(a<g.length);
+    }while(a<g.length);*/
 
 }
 
