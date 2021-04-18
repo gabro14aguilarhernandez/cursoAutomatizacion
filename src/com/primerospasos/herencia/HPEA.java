@@ -5,5 +5,6 @@ public class HPEA {
         Cuadrado cuadrado = new Cuadrado();
         Circulo circulo = new Circulo();
         System.out.println("Perimetro del circulo: " + circulo.getCircunferencia(5));
+        System.out.println("Perimetro del circulo: " + circulo.getCircunferencia(5));
     }
 }
